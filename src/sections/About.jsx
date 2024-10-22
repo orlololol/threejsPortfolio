@@ -32,32 +32,18 @@ const About = () => {
                 frontend and backend dev, creating dynamic and responsive
                 websites.
               </p>
+              <Button
+                name="Download My CV"
+                isBeam
+                containerClass="w-full mt-10"
+                href="assets/Orlando_Qiu_CV_SWE.pdf"
+              />
             </div>
           </div>
         </div>
 
+        {/* tech stack */}
         <div className="col-span-1 xl:row-span-3">
-          <div className="grid-container">
-            <img
-              src="assets/grid2.png"
-              alt="grid-2"
-              className="w-full sm:h-[276px] h-fit object-contain"
-            />
-
-            <div>
-              <p className="grid-headtext">Tech Stack</p>
-              <p className="grid-subtext">
-                Languages: Python, Java, C, C#, HTML, CSS, JavaScript,
-                TypeScript, MySQL, R, Ocaml, Bash, React, Next.js, TensorFlow,
-                Keras, sklearn, Flask, Vite, ThreeJS, Raspberry Pi, OpenCV,
-                WireGuard, MS Office, Git, Power Bi, RStudio, Docker, Google
-                Cloud, Linux, MongoDB, Google Firebase
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-1 xl:row-span-4">
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
@@ -81,15 +67,36 @@ const About = () => {
                 labelDotRadius={1}
               />
             </div>
+
             <div>
               <p className="grid-headtext">
-                I’m very flexible with time zone communications & locations
+                I&apos;m very flexible with time zone communications & locations
               </p>
               <p className="grid-subtext">
                 I&apos;m based in Montreal, Canada and open to remote work
                 worldwide.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+            </div>
+          </div>
+        </div>
+
+        {/* location */}
+        <div className="col-span-1 xl:row-span-4">
+          <div className="grid-container">
+            <img
+              src="assets/grid2.png"
+              alt="grid-2"
+              className="w-full sm:h-[276px] h-fit object-contain"
+            />
+            <div>
+              <p className="grid-headtext">Tech Stack</p>
+              <p className="grid-subtext">
+                Languages: Python, Java, C, C#, HTML, CSS, JavaScript,
+                TypeScript, MySQL, R, Ocaml, Bash, React, Next.js, TensorFlow,
+                Keras, sklearn, Flask, Vite, ThreeJS, Raspberry Pi, OpenCV,
+                WireGuard, MS Office, Git, Power Bi, RStudio, Docker, Google
+                Cloud, Linux, MongoDB, Google Firebase
+              </p>
             </div>
           </div>
         </div>
